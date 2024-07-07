@@ -1,24 +1,16 @@
-# TypeScript Project Template
+# @aliothor/utils
 
-fast start typescript project development
+[![NPM version](https://img.shields.io/npm/v/@aliothor/utils?color=a1b858&label=)](https://www.npmjs.com/package/@aliothor/utils)
+[![Docs](https://img.shields.io/badge/docs-green)](https://www.jsdocs.io/package/@aliothor/utils)
 
-## Install
-```bash
-pnpm install
-```
+Opinionated collection of common JavaScript / TypeScript utils by [@aliothor](https://github.com/aliothor).
 
-## Start 
-```bash
-// or pnpm run dev
-pnpm run start
-```
+- Tree-shakable ESM
+- Fully typed - with TSDocs
+- Vue hooks,directives,components
 
-### Build
-```bash
-pnpm run build
-```
+> This package is designed to be used as `devDependencies` and bundled into your dist.
 
-### Test
-```bash
-pnpm run test
-```
+## License
+
+[MIT](./LICENSE) License © 2021-PRESENT

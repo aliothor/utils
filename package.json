@@ -1,15 +1,21 @@
 {
-  "name": "ts-starter",
+  "name": "@aliothor/utils",
   "version": "0.0.0",
-  "description": "Starter template for TypeScript Project",
+  "description": "Collection of common JavaScript / TypeScript utils",
   "keywords": [
-    "template"
+    "typescript",
+    "javascript",
+    "utils",
+    "vue",
+    "hooks",
+    "directives",
+    "components"
   ],
-  "homepage": "https://github.com/aliothor/ts-starter#readme",
-  "bugs": "https://github.com/aliothor/ts-starter/issues",
+  "homepage": "https://github.com/aliothor/utils#readme",
+  "bugs": "https://github.com/aliothor/utils/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aliothor/ts-starter.git"
+    "url": "git+https://github.com/aliothor/utils.git"
   },
   "license": "MIT",
   "author": "aliothor",
