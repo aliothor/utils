@@ -1,0 +1,52 @@
+{
+  "name": "ts-starter",
+  "version": "0.0.0",
+  "description": "Starter template for TypeScript Project",
+  "keywords": [
+    "template"
+  ],
+  "homepage": "https://github.com/aliothor/ts-starter#readme",
+  "bugs": "https://github.com/aliothor/ts-starter/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliothor/ts-starter.git"
+  },
+  "license": "MIT",
+  "author": "aliothor",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bunchee",
+    "dev": "vitest run",
+    "start": "tsx src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "bunchee": "^5.2.2",
+    "tsx": "^4.16.2",
+    "vitest": "^1.6.0"
+  }
+}
